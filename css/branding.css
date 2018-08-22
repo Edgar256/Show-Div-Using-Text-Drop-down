@@ -1,0 +1,53 @@
+/*   
+
+		I AM THE SILENT STORM, ping me at tinka.edgar@gmail.com
+
+*/
+
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.72857143;
+    color: #333;
+    background-color: #fff;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 5px;
+    border-radius: 7px;
+}
+.col-sm-12 {
+    width: 100%;
+    padding: 5px;
+}
+#hiddenDiv{
+	display: none;
+}
+.row{
+	padding: 20px;
+}
+.form-control{
+	font-size: 18px;
+    height: 46px;
+}
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: #398439;
+    border-color: #255625;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 30px;
+}
+.btn-success {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px;
+}

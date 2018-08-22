@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/branding.css">
+ 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		
+ 
+</head>
+ 
+<body>
+	<div class="row"> 
+          <div class="col-sm-2"></div>
+          <div class="col-sm-6">Would you like to add a new section ?</div> 
+          <div class="col-sm-2">
+            <select id="types" name="types">
+                        <option value="no"> No  </option>
+                        <option value="yes">Yes  </option>
+            </select>
+          </div>
+          <div class="col-sm-2"></div>
+   </div>
+
+ 	<div class="row"  id='hiddenDiv'>
+          <div class="padding-10"></div>
+          <div class="col-sm-12">
+                <div class="padding-10"></div>
+                <div class="col-sm-3"></div><div class="col-sm-9">Please add details to the new section</div>
+          </div>
+          <div class="padding-10"></div>
+          <div class="col-sm-12">
+                <div class="padding-10"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">Name</div>
+                <div class="col-sm-3">
+                  <input value=" " type="text" class="form-control full-width-input" placeholder="Name" name="email" />
+                </div>
+                <div class="col-sm-5"></div>
+          </div>
+          <div class="padding-10"></div>
+          <div class="col-sm-12">
+            <div class="padding-10"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">Email</div>
+                <div class="col-sm-3">
+                  <input value=" " type="text" class="form-control full-width-input" placeholder="Email" name="email" />
+                </div>
+                <div class="col-sm-5"></div>
+          </div>  
+          <div class="padding-10"></div> 
+          <div class="col-sm-12 margin-bottom-85">
+                <div class="padding-10"></div> 
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">Time to receive report</div>
+                <div class="col-sm-2">
+                    <select name="decision">
+                        <option value="">1.00 </option>
+                        <option value="">1.30 </option>
+                        <option value="">2.00 </option>
+                        
+                    </select>
+                </div>
+                <div class="col-sm-1">
+                    <select name="time">
+                        <option value="">am </option>
+                        <option value="">pm </option>                       
+                    </select>
+                </div>
+                <div class="col-sm-5"></div>
+                <div class="col-sm-12">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2"><input type="button" name="save" value="Save" class="btn btn-success" >  </div>
+                    <div class="col-sm-5"></div>
+                </div>
+
+                <div class="row"> 
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6">Would you like to add another section ?</div> 
+                    <div class="col-sm-2">
+                      <select id="typesA" name="typesA">
+                      			  <option value="no"> No  </option> 
+                                  <option value="yes">Yes  </option>                                                                   
+                      </select>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+
+	          	<div class="row">
+	                <div class="col-sm-12"><hr></div>
+	                <div class="padding-10"></div>
+	                <div class="padding-10"></div>
+	                <div class="padding-10"></div>
+	          	</div>
+          </div>
+
+	        <div class="row"  id='hiddenDivA' style="display: none;">
+		          <div class="padding-10"></div>
+		          <div class="col-sm-12">
+		                <div class="padding-10"></div>
+		                <div class="col-sm-3"></div><div class="col-sm-9">Please add details this section</div>
+		          </div>
+		          <div class="padding-10"></div>
+		          <div class="col-sm-12">
+		                <div class="padding-10"></div>
+		                <div class="col-sm-2"></div>
+		                <div class="col-sm-2">Name</div>
+		                <div class="col-sm-3">
+		                  <input value=" " type="text" class="form-control full-width-input" placeholder="Name" name="email" />
+		                </div>
+		                <div class="col-sm-5"></div>
+		          </div>
+		          <div class="padding-10"></div>
+		          <div class="col-sm-12">
+		            <div class="padding-10"></div>
+		                <div class="col-sm-2"></div>
+		                <div class="col-sm-2">Email</div>
+		                <div class="col-sm-3">
+		                  <input value=" " type="text" class="form-control full-width-input" placeholder="Email" name="email" />
+		                </div>
+		                <div class="col-sm-5"></div>
+		          </div>  
+		          <div class="padding-10"></div> 
+		          <div class="col-sm-12 margin-bottom-85">
+		                <div class="padding-10"></div> 
+		                <div class="col-sm-2"></div>
+		                <div class="col-sm-2">Time to receive report</div>
+		                <div class="col-sm-2">
+		                    <select name="decision">
+		                        <option value="">1.00 </option>
+		                        <option value="">1.30 </option>
+		                        <option value="">2.00 </option>
+		                        
+		                    </select>
+		                </div>
+		                <div class="col-sm-1">
+		                    <select name="decision">
+		                        <option value="">am </option>
+		                        <option value="">pm </option>                       
+		                    </select>
+		                </div>
+		                <div class="col-sm-5"></div>
+		                <div class="col-sm-12">
+		                    <div class="col-sm-5"></div>
+		                    <div class="col-sm-2"><input type="button" name="save" value="Save" class="btn btn-success" >  </div>
+		                    <div class="col-sm-5"></div>
+		                </div>
+
+		                <div class="row"> 
+		                    <div class="col-sm-2"></div>
+		                    <div class="col-sm-6">Would you like to add another section ?</div> 
+		                    <div class="col-sm-2">
+		                      <select id="typesB" name="typesB">
+		                      			  <option value="no"> No  </option> 
+		                                  <option value="yes">Yes  </option>                                                                   
+		                      </select>
+		                    </div>
+		                    <div class="col-sm-2"></div>
+                		</div>
+
+				            <div class="row">
+				                <div class="col-sm-12"><hr></div>
+				                <div class="padding-10"></div>
+				                <div class="padding-10"></div>
+				                <div class="padding-10"></div>
+				            </div>
+
+			            
+		          </div>
+
+		          <div class="row"  id='hiddenDivB' style="display: none;">
+					          <div class="padding-10"></div>
+					          <div class="col-sm-12">
+					                <div class="padding-10"></div>
+					                <div class="col-sm-3"></div><div class="col-sm-9">Please add details this section</div>
+					          </div>
+					          <div class="padding-10"></div>
+					          <div class="col-sm-12">
+					                <div class="padding-10"></div>
+					                <div class="col-sm-2"></div>
+					                <div class="col-sm-2">Name</div>
+					                <div class="col-sm-3">
+					                  <input value=" " type="text" class="form-control full-width-input" placeholder="Name" name="email" />
+					                </div>
+					                <div class="col-sm-5"></div>
+					          </div>
+					          <div class="padding-10"></div>
+					          <div class="col-sm-12">
+					            <div class="padding-10"></div>
+					                <div class="col-sm-2"></div>
+					                <div class="col-sm-2">Email</div>
+					                <div class="col-sm-3">
+					                  <input value=" " type="text" class="form-control full-width-input" placeholder="Email" name="email" />
+					                </div>
+					                <div class="col-sm-5"></div>
+					          </div>  
+					          <div class="padding-10"></div> 
+					          <div class="col-sm-12 margin-bottom-85">
+					                <div class="padding-10"></div> 
+					                <div class="col-sm-2"></div>
+					                <div class="col-sm-2">Time to receive report</div>
+					                <div class="col-sm-2">
+					                    <select name="decision">
+					                        <option value="">1.00 </option>
+					                        <option value="">1.30 </option>
+					                        <option value="">2.00 </option>
+					                        
+					                    </select>
+					                </div>
+					                <div class="col-sm-1">
+					                    <select name="decision">
+					                        <option value="">am </option>
+					                        <option value="">pm </option>                       
+					                    </select>
+					                </div>
+					                <div class="col-sm-5"></div>
+					                <div class="col-sm-12">
+					                    <div class="col-sm-5"></div>
+					                    <div class="col-sm-2"><input type="button" name="save" value="Save" class="btn btn-success" >  </div>
+					                    <div class="col-sm-5"></div>
+					                </div>
+
+						            <div class="row">
+						                <div class="col-sm-12"><hr></div>
+						                <div class="padding-10"></div>
+						                <div class="padding-10"></div>
+						                <div class="padding-10" ></div>
+						            </div>
+
+						            <div class="row" style="text-align: center;">We could continue till tomorrow,but I have to sleep</div>
+					          </div>		          
+	                
+	      					</div>
+
+
+	                
+	      	</div>
+                
+  </div>
+
+<script src="js/hide.js"></script>     
+</body>
+ 
+</html>
